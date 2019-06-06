@@ -1,1 +1,1 @@
-Projekt utworzenia strony internetowej w ramach kursu Kodilla
+Projekt utworzenia strony internetowejna podstawie szablonu (project-template) w ramach kursu Kodilla. 
