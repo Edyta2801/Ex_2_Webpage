@@ -34,7 +34,10 @@ section {
   background-position: center center;
   background-size: cover;
   background-attachment: fixed;
+  // opacity:0.1;
+
 }
+
 .splash-inner {
   position: absolute;
   width: 100%;
@@ -66,4 +69,9 @@ section {
   height: 10px;
   transform: translateX(-50%);
   background-color: $color-main;
+}
+.page-subtitle{
+  color:$color-light;
+  font-size:18px;
+  margin:48px 0 0 0;
 }
