@@ -1,5 +1,5 @@
 $color-main: #ff5e57;
-$color-light:#fff;
+$color-light: #fff;
 
 /*Global*/
 
@@ -48,6 +48,22 @@ section {
   width: 60px;
   height: 60px;
   line-height: 60px;
-  color:$color-light;
-  border-radius:50%;
+  color: $color-light;
+  border-radius: 50%;
+}
+.page-title {
+  color: $color-light;
+  font-size: 60px;
+  margin: 48px 0 0 0;
+  position: relative;
+}
+.page-title::after {
+  position: absolute;
+  content: "";
+  bottom: -24px;
+  left: 50%;
+  width: 100px;
+  height: 10px;
+  transform: translateX(-50%);
+  background-color: $color-main;
 }

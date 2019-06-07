@@ -52,4 +52,22 @@ section {
   border-radius: 50%;
 }
 
+.page-title {
+  color: #fff;
+  font-size: 60px;
+  margin: 48px 0 0 0;
+  position: relative;
+}
+
+.page-title::after {
+  position: absolute;
+  content: "";
+  bottom: -24px;
+  left: 50%;
+  width: 100px;
+  height: 10px;
+  transform: translateX(-50%);
+  background-color: #ff5e57;
+}
+
 /*# sourceMappingURL=style.css.map */
