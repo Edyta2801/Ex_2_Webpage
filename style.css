@@ -67,7 +67,7 @@ section {
   width: 100px;
   height: 10px;
   transform: translateX(-50%);
-  background-color: #ff5e57;
+  background: #ff5e57;
 }
 
 .page-subtitle {
