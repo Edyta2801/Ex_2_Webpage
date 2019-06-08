@@ -24,7 +24,7 @@ section {
   padding: 108px;
 }
 
-section-title {
+.section-title {
   position: relative;
   font-size: 36px;
   margin: 0 0 60px 0;
@@ -108,5 +108,8 @@ section-title {
 }
 
 /*About*/
+.about {
+  background: #f0f0f0;
+}
 
 /*# sourceMappingURL=style.css.map */
