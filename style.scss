@@ -135,9 +135,7 @@ section {
 .skill-right .skill-image {
   right: 0;
 }
-// .skill-left .skill-image {
-//   left: 0;
-// }
+
 .skill-right .skill-description {
   padding: 36px 55% 36px 0;
   text-align: right;
@@ -146,4 +144,11 @@ section {
 .skill-left .skill-description {
   padding: 36px 0 36px 55%;
   text-align: left;
+}
+.skill-description p {
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px 0;
+  font-size: 18px;
+
 }
