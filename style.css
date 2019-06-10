@@ -132,7 +132,6 @@ section {
   height: 100%;
   object-fit: cover;
   transition: all 1s;
-  transition-duration: 3s;
 }
 
 .skill-right .skill-image {
@@ -150,14 +149,13 @@ section {
 }
 
 .skill-description p {
-  width: 100%;
   margin: 0 auto;
   padding: 20px 0;
   font-size: 18px;
 }
 
 .skill-image img:hover {
-  transform: scale(1.9);
+  transform: scale(1.5);
 }
 
 /*# sourceMappingURL=style.css.map */
