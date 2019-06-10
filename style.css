@@ -155,7 +155,21 @@ section {
 }
 
 .skill-image img:hover {
-  transform: scale(1.5);
+  transition: all 1s;
+}
+
+/*Gallery*/
+.row::before,
+.row::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.brick {
+  float: left;
+  width: 33.333%;
+  height: 300px;
 }
 
 /*# sourceMappingURL=style.css.map */

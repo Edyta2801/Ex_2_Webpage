@@ -131,6 +131,7 @@ section {
   height: 100%;
   object-fit: cover;
   transition: all 1s;
+
 }
 
 .skill-right .skill-image {
@@ -153,7 +154,35 @@ section {
   font-size: 18px;
 }
 
-.skill-image img:hover{
-  transform: scale(1.5);
+.skill-image img:hover {
+  transition: all 1s;
 }
+
+
+/*Gallery*/
+
+.row::before,
+.row::after {
+    clear: both;
+    content: "";
+    display: table;
+}
+
+.brick{
+  float:left;
+  width:33.333%;
+  height:300px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
 
