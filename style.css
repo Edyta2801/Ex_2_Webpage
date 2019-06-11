@@ -159,17 +159,27 @@ section {
 }
 
 /*Gallery*/
-.row::before,
-.row::after {
-  clear: both;
-  content: "";
-  display: table;
+.gallery {
+  width: 100%;
+  margin: 0 auto;
 }
 
-.brick {
+.brick-image {
+  position: relative;
+}
+
+.brick- {
   float: left;
   width: 33.333%;
   height: 300px;
+  position: absolute;
+}
+
+.brick-2 {
+  float: center;
+  width: 33.333%;
+  height: 300px;
+  position: absolute;
 }
 
 /*# sourceMappingURL=style.css.map */
