@@ -152,9 +152,12 @@ section {
   padding: 20px 0;
   font-size: 18px;
 }
-
-.skill-image img:hover {
+.skill-image img:hover{
+  transform:scale(2.5);
+}
+.skill-image img {
   transition: all 1s;
+  transition: transform .2s;
 }
 
 /*Gallery*/
@@ -170,9 +173,10 @@ section {
   display: table;
 }
 
-.brick-image {
-  position: relative;
-}
+// .brick-image {
+//   position: relative;
+//   background: rgba(0, 0, 0, .5);
+// }
 
 .brick-description {
   position: absolute;
@@ -180,7 +184,6 @@ section {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
- 
   }
 
 .gallery .brick-description:hover {
@@ -193,8 +196,15 @@ section {
   position: absolute;
   position:relative;
 }
-.button:hover{
-
+.brick:hover{
+	background: rgba(0, 0, 0, .5);
 }
 
+brick::after{
+  width:100%;
+  height:100%;
+  background:grey;
+  opacity:0.5;
+
+}
 
