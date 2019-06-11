@@ -168,18 +168,24 @@ section {
   position: relative;
 }
 
-.brick- {
-  float: left;
-  width: 33.333%;
-  height: 300px;
+.brick-description {
   position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
-.brick-2 {
-  float: center;
+.gallery .brick-description:hover {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.brick {
+  float: right;
   width: 33.333%;
   height: 300px;
   position: absolute;
+  position: relative;
 }
 
 /*# sourceMappingURL=style.css.map */

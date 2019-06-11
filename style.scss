@@ -173,70 +173,28 @@ section {
 .brick-image {
   position: relative;
 }
-.brick-{
-  float: left;
+
+.brick-description {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+ 
+  }
+
+.gallery .brick-description:hover {
+	background: rgba(0, 0, 0, .5);
+}
+.brick {
+  float: right;
   width: 33.333%;
   height: 300px;
   position: absolute;
+  position:relative;
 }
-.brick-2 {
-  float: center;
-  width: 33.333%;
-  height: 300px;
-  position: absolute;
+.button:hover{
+  
 }
-// .brick {
-//   float: right;
-//   width: 33.333%;
-//   height: 300px;
-//   position: absolute;
-// }
 
 
-// .splash {
-//   height: 100vh;
-//   position: relative;
-//   background-image: url("https://images.pexels.com/photos/57690/pexels-photo-57690.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
-//   background-position: center center;
-//   background-size: cover;
-//   background-attachment: fixed;
-// }
-
-// .splash-inner {
-//   position: absolute;
-//   width: 100%;
-//   top: 50%;
-//   left: 50%;
-//   transform: translate(-50%, -50%);
-// }
-// .splash i {
-//   font-size: 30px;
-//   background: $color-main;
-//   width: 60px;
-//   height: 60px;
-//   line-height: 60px;
-//   color: $color-light;
-//   border-radius: 50%;
-// }
-// .page-title {
-//   color: $color-light;
-//   font-size: 60px;
-//   margin: 48px 0 0 0;
-//   position: relative;
-//   font-family: $font-header;
-// }
-// .page-title::after {
-//   position: absolute;
-//   content: "";
-//   bottom: -24px;
-//   left: 50%;
-//   width: 100px;
-//   height: 10px;
-//   transform: translateX(-50%);
-//   background: $color-main;
-// }
-// .page-subtitle {
-//   color: $color-light;
-//   font-size: 18px;
-//   margin: 48px 0 0 0;
-// }
