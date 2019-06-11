@@ -208,7 +208,7 @@ brick::after {
 }
 
 .gallery button {
-  color: #f0f0f0;
+  color: #fff;
   background: #ff5e57;
 }
 
@@ -221,6 +221,15 @@ brick::after {
   text-decoration: none;
   font-size: 16px;
   margin: 90px;
+}
+
+/*Footer*/
+.footer {
+  background: #242424;
+  width: 100%;
+  padding: 10px;
+  color: #fff;
+  font-family: "Josefin Sans", sans-serif;
 }
 
 /*# sourceMappingURL=style.css.map */

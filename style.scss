@@ -208,13 +208,13 @@ brick::after{
 
 }
 .gallery button {
-  color:#f0f0f0;
-  background: #ff5e57;
+  color:$color-light;
+  background:$color-main;
 
 }
 .bottom{
   color:#f0f0f0;
-  background: #ff5e57;
+  background:$color-main;
   border:none;
   padding: 15px 32px;
   text-align: center;
@@ -225,3 +225,12 @@ brick::after{
 
 
 
+/*Footer*/ 
+
+.footer{
+  background:#242424;
+  width:100%;
+  padding:10px;
+  color:$color-light;
+  font-family: $font-text;
+}
