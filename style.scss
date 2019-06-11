@@ -152,19 +152,19 @@ section {
   padding: 20px 0;
   font-size: 18px;
 }
-.skill-image img:hover{
-  transform:scale(2.5);
+.skill-image img:hover {
+  transform: scale(2.5);
 }
 .skill-image img {
   transition: all 1s;
-  transition: transform .2s;
+  transition: transform 0.2s;
 }
 
 /*Gallery*/
 
-.gallery{
-  width:100%;
-  margin:0 auto;
+.gallery {
+  width: 100%;
+  margin: 0 auto;
 }
 .row::before,
 .row::after {
@@ -184,53 +184,49 @@ section {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  }
+}
 
 .gallery .brick-description:hover {
-	background: rgba(0, 0, 0, .5);
+  background: rgba(0, 0, 0, 0.5);
 }
 .brick {
   float: right;
   width: 33.333%;
   height: 300px;
   position: absolute;
-  position:relative;
+  position: relative;
 }
-.brick:hover{
-	background: rgba(0, 0, 0, .5);
+.brick:hover {
+  background: rgba(0, 0, 0, 0.5);
 }
 
-brick::after{
-  width:100%;
-  height:100%;
-  background:grey;
-  opacity:0.5;
-
+brick::after {
+  width: 100%;
+  height: 100%;
+  background: grey;
+  opacity: 0.5;
 }
 .gallery button {
-  color:$color-light;
-  background:$color-main;
-
+  color: $color-light;
+  background: $color-main;
 }
-.bottom{
-  color:#f0f0f0;
-  background:$color-main;
-  border:none;
+.bottom {
+  color: #f0f0f0;
+  background: $color-main;
+  border: none;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
   font-size: 16px;
-  margin:90px;
+  margin: 90px;
 }
 
+/*Footer*/
 
-
-/*Footer*/ 
-
-.footer{
-  background:#242424;
-  width:100%;
-  padding:10px;
-  color:$color-light;
+.footer {
+  background: #242424;
+  width: 100%;
+  padding: 10px;
+  color: $color-light;
   font-family: $font-text;
 }
