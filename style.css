@@ -207,4 +207,20 @@ brick::after {
   opacity: 0.5;
 }
 
+.gallery button {
+  color: #f0f0f0;
+  background: #ff5e57;
+}
+
+.bottom {
+  color: #f0f0f0;
+  background: #ff5e57;
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 90px;
+}
+
 /*# sourceMappingURL=style.css.map */
