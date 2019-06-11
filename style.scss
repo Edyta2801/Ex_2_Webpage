@@ -163,12 +163,12 @@ section {
   width:100%;
   margin:0 auto;
 }
-// .row::before,
-// .row::after {
-//   clear: both;
-//   content: "";
-//   display: table;
-// }
+.row::before,
+.row::after {
+  clear: both;
+  content: "";
+  display: table;
+}
 
 .brick-image {
   position: relative;
@@ -194,7 +194,7 @@ section {
   position:relative;
 }
 .button:hover{
-  
+
 }
 
 

@@ -164,6 +164,13 @@ section {
   margin: 0 auto;
 }
 
+.row::before,
+.row::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
 .brick-image {
   position: relative;
 }
