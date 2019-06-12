@@ -128,7 +128,7 @@ section {
   width: 50%;
   height: 100%;
   overflow: hidden;
-  z-index:1;
+  z-index: 1;
 }
 .skill-image img {
   width: 100%;
@@ -169,6 +169,7 @@ section {
 .gallery {
   width: 100%;
   margin: 0 auto;
+  padding: 0;
 }
 .row::before,
 .row::after {
@@ -177,9 +178,10 @@ section {
   display: table;
 }
 
-.brick-image {
-  position: relative;
-  background: rgba(0, 0, 0, .5);
+.brick-image img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
 }
 
 .brick-description {
@@ -188,17 +190,23 @@ section {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  opacity:0;
+  opacity: 0;
 }
 
-.gallery .brick-description:hover {
-  background: rgba(0, 0, 0, 0.5);
+.brick-description:hover {
+  opacity: 1;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: $color-light;
 }
 .brick {
   float: right;
   width: 33.333%;
   height: 300px;
-  position: absolute;
+  // position: absolute;
   position: relative;
 }
 .brick:hover {
@@ -214,6 +222,8 @@ brick::after {
 .gallery button {
   color: $color-light;
   background: $color-main;
+  padding: 20px;
+  border: none;
 }
 .bottom {
   color: #f0f0f0;

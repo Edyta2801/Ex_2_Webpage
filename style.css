@@ -170,6 +170,7 @@ section {
 .gallery {
   width: 100%;
   margin: 0 auto;
+  padding: 0;
 }
 
 .row::before,
@@ -179,9 +180,10 @@ section {
   display: table;
 }
 
-.brick-image {
-  position: relative;
-  background: rgba(0, 0, 0, 0.5);
+.brick-image img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
 }
 
 .brick-description {
@@ -193,15 +195,20 @@ section {
   opacity: 0;
 }
 
-.gallery .brick-description:hover {
-  background: rgba(0, 0, 0, 0.5);
+.brick-description:hover {
+  opacity: 1;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #fff;
 }
 
 .brick {
   float: right;
   width: 33.333%;
   height: 300px;
-  position: absolute;
   position: relative;
 }
 
@@ -219,6 +226,8 @@ brick::after {
 .gallery button {
   color: #fff;
   background: #ff5e57;
+  padding: 20px;
+  border: none;
 }
 
 .bottom {
