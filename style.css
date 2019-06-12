@@ -243,6 +243,13 @@ brick::after {
   margin: 20px;
 }
 
+input {
+  padding: 5px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  transition: 0.5s all;
+}
+
 /*Footer*/
 .footer {
   background: #242424;
