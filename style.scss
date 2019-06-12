@@ -238,10 +238,19 @@ brick::after {
   margin: 20px;
 }
 input {
+  width: 300px;
   padding: 5px;
   margin: 5px 0;
   border: 1px solid #ccc;
-  transition: .5s all
+  transition: 0.5s al;
+  color: grey;
+}
+textarea {
+  width: 300px;
+  padding: 5px;
+  margin: 5px 0;
+  font-family: $font-text;
+  color: grey;
 }
 
 /*Footer*/
