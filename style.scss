@@ -55,6 +55,8 @@ section {
   background-position: center center;
   background-size: cover;
   background-attachment: fixed;
+  min-height: 500px;
+  max-height: 1000px;
 }
 
 .splash-inner {
