@@ -57,6 +57,7 @@ section {
   background-attachment: fixed;
   min-height: 500px;
   max-height: 1000px;
+  // opacity:0.3;
 }
 
 .splash-inner {
@@ -268,6 +269,8 @@ textarea {
   margin: 5px 0;
   font-family: $font-text;
   color: grey;
+  display:block;
+  margin:0 auto;
 }
 
 /*Footer*/

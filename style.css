@@ -276,6 +276,8 @@ textarea {
   margin: 5px 0;
   font-family: "Josefin Sans", sans-serif;
   color: grey;
+  display: block;
+  margin: 0 auto;
 }
 
 /*Footer*/
