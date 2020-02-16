@@ -1,0 +1,19 @@
+{
+  "name": "layout-jane-doe",
+  "version": "1.0.0",
+  "description": "layout-jane-doe",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Edyta2801/Ex_2_Webpage.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Edyta2801/Ex_2_Webpage/issues"
+  },
+  "homepage": "https://github.com/Edyta2801/Ex_2_Webpage#readme"
+}
