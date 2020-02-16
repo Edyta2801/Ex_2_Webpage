@@ -242,3 +242,24 @@ textarea {
   padding: 10px;
   color: #fff;
   font-family: "Josefin Sans", sans-serif; }
+
+@media only screen and (min-width: 321px) and (max-width: 787px) {
+  .page-title {
+    font-size: 30px; }
+  [class^="skill-"] {
+    position: relative; }
+  .skill-image {
+    width: 100%;
+    height: 100%;
+    overflow: hidden; }
+  .skill-image img {
+    width: 100%;
+    height: 100%; }
+  .skill-right .skill-image {
+    right: 0; }
+  .skill-right .skill-description {
+    padding: 0;
+    text-align: center; }
+  .skill-left .skill-description {
+    padding: 0;
+    text-align: center; } }
