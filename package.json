@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Edyta2801/Ex_2_Webpage/issues"
   },
-  "homepage": "https://github.com/Edyta2801/Ex_2_Webpage#readme"
+  "homepage": "https://github.com/Edyta2801/Ex_2_Webpage#readme",
+  "dependencies": {
+    "node-sass": "^4.13.1"
+  }
 }
