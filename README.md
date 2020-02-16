@@ -8,4 +8,5 @@ Project to create a layout based on a project-template as part of the Kodilla co
 ## Technologies
 * HTML
 * SASS
+* RWD
 
