@@ -183,6 +183,7 @@ section {
   float: right;
   width: 33.333%;
   height: 300px;
+  position: absolute;
   position: relative; }
 
 .gallery button {
@@ -262,4 +263,16 @@ textarea {
     text-align: center; }
   .skill-left .skill-description {
     padding: 0;
-    text-align: center; } }
+    text-align: center; }
+  .row::before,
+  .row::after {
+    clear: both;
+    content: "";
+    display: table-row; }
+  .brick {
+    float: none;
+    width: 100%;
+    height: 300px;
+    position: relative;
+    align-items: center;
+    margin-bottom: 50px; } }

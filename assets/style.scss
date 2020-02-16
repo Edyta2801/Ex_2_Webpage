@@ -210,7 +210,7 @@ section {
   float: right;
   width: 33.333%;
   height: 300px;
-  // position: absolute;
+  position: absolute;
   position: relative;
 }
 
@@ -276,7 +276,7 @@ textarea {
   color: $color-light;
   font-family: $font-text;
 }
-@media only screen and (min-width:321px)and (max-width: 787px) {
+@media only screen and (min-width: 321px) and (max-width: 787px) {
   .page-title {
     font-size: 30px;
   }
@@ -298,12 +298,26 @@ textarea {
   }
 
   .skill-right .skill-description {
-    padding:0;
+    padding: 0;
     text-align: center;
   }
 
   .skill-left .skill-description {
     padding: 0;
     text-align: center;
+  }
+  .row::before,
+  .row::after {
+    clear: both;
+    content: "";
+    display: table-row;
+  }
+  .brick {
+    float: none;
+    width: 100%;
+    height: 300px;
+    position: relative;
+    align-items: center;
+    margin-bottom: 50px;
   }
 }
