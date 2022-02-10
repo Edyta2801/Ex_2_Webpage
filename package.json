@@ -19,6 +19,6 @@
   "homepage": "https://github.com/Edyta2801/Ex_2_Webpage#readme",
   "dependencies": {
     "@drewbot/sass-flexbox-grid": "^2.0.7",
-    "node-sass": "^4.13.1"
+    "node-sass": "^7.0.0"
   }
 }
